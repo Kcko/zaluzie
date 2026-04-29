@@ -28,7 +28,7 @@ export const photos = [
         id: 5,
         src: 'photos/5.jpg',
         title: 'Fotka 5',
-        description: 'Levá strana - nedovírá, je to vidět oproti fotce 3',
+        description: 'Levá strana - nedovírá, je to vidět oproti fotce 4',
     },
     {
         id: 6,
