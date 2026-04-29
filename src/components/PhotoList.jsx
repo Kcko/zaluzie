@@ -9,6 +9,7 @@ export default function PhotoList() {
     return (
         <div className="mx-auto max-w-[1024px] px-4 py-8">
             <h1 className="mb-6 text-4xl font-bold text-center">Fotky žaluzií - asymetrické, levá strana nedovírá</h1>
+            <p className="mb-6 text-center text-gray-600">foceno z různých úhlů a vzdáleností, rozevřené lamely jsou opticky křivé, pravá strana je v náklonu</p>
             <div className="space-y-6">
                 {photos.map(photo => (
                     <PhotoCard key={photo.id} photo={photo} onClick={setActivePhoto} />
